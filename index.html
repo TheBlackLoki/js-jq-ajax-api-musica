@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dischi Musicali</title>
+  </head>
+  <body>
+    <main>
+
+
+      <div class="libreria">
+
+      </div>
+    </main>
+    <script id="dischiMusicali" type="text/x-handlebars-template">
+        <div class="brano">
+          <img src="{{poster}}" alt="">
+          <h3>{{title}}</h3>
+          <span>{{author}}</span>
+          <span>{{year}}</span>
+        </div>
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
